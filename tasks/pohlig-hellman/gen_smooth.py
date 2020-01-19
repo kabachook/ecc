@@ -1,6 +1,7 @@
 #/usr/bin/env python3
 """
 This file generates smooth numbers — product of n consecutive primes with all possible exponents permutations
+Q = \sum_{i} p_{i}^{e_{i}}
 """
 import itertools
 from functools import lru_cache
