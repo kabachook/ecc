@@ -15,7 +15,7 @@ Then after applying [CRT](https://en.wikipedia.org/wiki/Chinese_remainder_theore
 ## How to generate task
 
 ```bash
-./gen_task.sh > task.txt | log.txt
+./gen_task.sh > task.txt | tee log.txt
 ```
 
 You will get two files:
