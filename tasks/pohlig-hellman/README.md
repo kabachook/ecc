@@ -12,6 +12,16 @@ Then after applying [CRT](https://en.wikipedia.org/wiki/Chinese_remainder_theore
 
 ![](https://upload.wikimedia.org/wikipedia/commons/6/66/Pohlig-Hellman-Diagram.svg)
 
+## How to generate task
+
+```bash
+./gen_task.sh > task.txt | log.txt
+```
+
+You will get two files:
+- `task.txt` — task itself
+- `log.txt` — task generator log with answer
+
 ## Links
 
 https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm
