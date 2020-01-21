@@ -1,5 +1,10 @@
 # Pohlig-Hellman algorithm
 
+## Description
+
+If group order is not a prime number, but a smooth one with little factors, the ECDLP problem can be solved in less time.
+Instead of `O(sqrt(n))`, `O`(sum(e_i*(log(n) + sqrt(p_i))))`. Where `n = product(p_i^e_i)`
+
 ## Task
 
 Given arbitary curve `E` with [smooth](https://en.wikipedia.org/wiki/Smooth_number) order and some point `P = d*G`, find `d`.
