@@ -1,5 +1,9 @@
 # Smart attack on anomalous curves
 
+## Description
+
+If a curve E defined over finite field of size `p`, has a subproup with order of `p`, then ECDLP problem can be solved in `O(1)` time. 
+
 ## Task
 
 Given arbitary curve `E` over finite field of size `p` with `E.order == p` and some point `P = d*G`, find `d`.
