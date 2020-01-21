@@ -1,7 +1,7 @@
 # TODO
 
 - [x] Pohlig-Hellman algorithm
-- [ ] Anomalius curves attack
+- [x] Anomalius curves attack
 - [ ] Bilinear pairings
 - [ ] Insecure twists(?)
 - [ ] Invalid curves attack (MOV attack)
