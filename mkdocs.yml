@@ -30,6 +30,8 @@ extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 
 docs_dir: ecc
+edit_uri: blob/master/ecc/
+site_description: 'Elliptic curve stuff'
 
 nav:
   - Home: 'README.md'
