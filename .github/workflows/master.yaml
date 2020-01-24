@@ -24,9 +24,25 @@ jobs:
       run: pip install -r requirements.txt
     - name: Build site
       run: mkdocs build
-    - name: Zip site
-      run: zip -r site.zip site/*
     - uses: actions/upload-artifact@v1
       with:
-        name: site.zip
-        path: site.zip
+        name: site
+        path: site
+  
+  deploy:
+    if: github.ref == 'master'
+    needs: build
+    steps:
+      - uses: actions/download-artifact@v1
+        with:
+          name: site
+      - name: copy file via ssh key
+        uses: appleboy/scp-action@master
+        env:
+          HOST: ${{ secrets.HOST }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PORT: ${{ secrets.PORT }}
+          KEY: ${{ secrets.KEY }}
+        with:
+          source: "site"
+          target: ${{ secrets.REMOTE_PATH }}
