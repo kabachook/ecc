@@ -1,4 +1,4 @@
 # ecc
 Some Elliptic Curve Cryptography stuff
 
-## Work in progress!!!
+[Root here](./ecc/README.md)

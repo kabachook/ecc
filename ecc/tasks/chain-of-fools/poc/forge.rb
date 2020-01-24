@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# (c) ollypwn https://github.com/ollypwn/CVE-2020-0601/blob/master/main.rb
 require 'openssl'
 
 raw = File.read ARGV[0]

@@ -2,7 +2,7 @@
 
 ## Description
 
-If the clinet/server does not check the certificate parameters with some fixed ones (e.g. secp521p), the certificate can be spoofed.
+If the clinet/server does not check the certificate parameters with some fixed ones (e.g. `secp521p`), the certificate can be spoofed.
 
 ## Task
 
@@ -16,3 +16,4 @@ See [`./poc/gen.sh`](./poc/gen.sh)
 
 - https://blog.lessonslearned.org/chain-of-fools/
 - https://research.kudelskisecurity.com/2020/01/15/cve-2020-0601-the-chainoffools-attack-explained-with-poc/
+- https://toadstyle.org/cryptopals/61.txt
