@@ -1,0 +1,43 @@
+site_name: ECC stuff
+
+repo_url: https://github.com/kabachook/ecc
+
+theme:
+  name: 'material'
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+docs_dir: ecc
+
+nav:
+  - Home: 'README.md'
+  - Theory:
+    - Base: 'theory/base.md'
+    - Pairings: 'theory/pairings.md'
+  - Tasks:
+    - Anomalous curves: 'tasks/anomalous/README.md'
+    - 'Curves with smooth-number order': 'tasks/pohlig-hellman/README.md'
+    - 'Chain of fools/CurveBall attack': 'tasks/chain-of-fools/README.md'
+  - TODO: 'TODO.md'
