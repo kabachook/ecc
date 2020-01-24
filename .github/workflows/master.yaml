@@ -49,3 +49,5 @@ jobs:
         with:
           source: "site/*"
           target: ${{ secrets.REMOTE_PATH }}
+          overwrite: true
+          strip_components: 1
