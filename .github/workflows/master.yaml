@@ -37,6 +37,8 @@ jobs:
       - uses: actions/download-artifact@v1
         with:
           name: site
+      - name: Debug print
+        run: ls site
       - name: copy file via ssh key
         uses: appleboy/scp-action@master
         env:
