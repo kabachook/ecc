@@ -45,5 +45,5 @@ jobs:
           PORT: ${{ secrets.PORT }}
           KEY: ${{ secrets.KEY }}
         with:
-          source: "site"
+          source: "site/*"
           target: ${{ secrets.REMOTE_PATH }}
