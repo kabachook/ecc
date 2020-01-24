@@ -30,6 +30,7 @@ jobs:
         path: site
   
   deploy:
+    runs-on: ubuntu-latest
     if: github.ref == 'master'
     needs: build
     steps:
