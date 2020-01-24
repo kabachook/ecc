@@ -10,6 +10,7 @@ theme:
   palette:
     primary: 'deep purple'
     accent: 'purple'
+  custom_dir: theme/
 
 markdown_extensions:
   - admonition
@@ -33,7 +34,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_javascript:
-  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML'
 extra_css:
   - 'static/style.css'
 
