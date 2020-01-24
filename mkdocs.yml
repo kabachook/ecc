@@ -1,4 +1,5 @@
-site_name: ECC stuff
+site_name: Elliptic curve cryptography stuff
+site_description: 'Attacks and challenges on ECC'
 
 repo_url: https://github.com/kabachook/ecc
 repo_name: "kabachook/ecc"
@@ -40,7 +41,6 @@ extra_css:
 
 docs_dir: ecc
 edit_uri: blob/master/ecc/
-site_description: 'Elliptic curve stuff'
 
 nav:
   - Home: 'README.md'

@@ -1,9 +1,38 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="static/ecc.png">
-
+<!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:image" content="static/ecc.png">
+<meta property="og:url" content="https://ecc.danil.co/">
+<meta property="og:image" content="https://ecc.danil.co/static/cover.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://ecc.danil.co/">
+<meta property="twitter:image" content="https://ecc.danil.co/static/cover.png">
+
+<!-- Page description -->
+{% if page and page.meta and page.meta.description %}
+<meta property="og:description" content="{{ page.meta.description }}" />
+<meta property="twitter:description" content="{{ page.meta.description }}" />
+{% elif config.site_description %}
+<meta property="og:description" content="{{ config.site_description }}" />
+<meta property="twitter:description" content="{{ config.site_description }}" />
+{% endif %}
+{% endblock %}
+
+{% block htmltitle %}
+    {% if page and page.meta and page.meta.title %}
+    <title>{{ page.meta.title }}</title>
+    <meta property="og:title" content="{{ page.meta.title }}">
+    <meta property="twitter:title" content="{{ page.meta.title }}">
+    {% elif page and page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags }} - {{ config.site_name }}</title>
+    <meta property="og:title" content="{{ page.title | striptags }} - {{ config.site_name }}">
+    <meta property="twitter:title" content="{{ page.title | striptags }} - {{ config.site_name }}">
+    {% else %}
+    <title>{{ config.site_name }}</title>
+    <meta property="og:title" content="{{ config.site_name }}">
+    <meta property="twitter:title" content="{{ config.site_name }}">
+    {% endif %}
 {% endblock %}
