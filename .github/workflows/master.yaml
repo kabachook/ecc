@@ -31,7 +31,7 @@ jobs:
   
   deploy:
     runs-on: ubuntu-latest
-    if: github.ref == 'master'
+    if: github.ref == 'ref/heads/master'
     needs: build
     steps:
       - uses: actions/download-artifact@v1
