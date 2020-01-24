@@ -1,9 +1,15 @@
 site_name: ECC stuff
 
 repo_url: https://github.com/kabachook/ecc
+repo_name: "kabachook/ecc"
 
 theme:
   name: 'material'
+  logo:
+    icon: 📈
+  palette:
+    primary: 'deep purple'
+    accent: 'purple'
 
 markdown_extensions:
   - admonition
@@ -28,6 +34,8 @@ markdown_extensions:
 
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+extra_css:
+  - 'static/style.css'
 
 docs_dir: ecc
 edit_uri: blob/master/ecc/
