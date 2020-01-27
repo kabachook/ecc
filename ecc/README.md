@@ -1,8 +1,10 @@
 # Elliptic curve cryptography stuff
 
+![](./static/cover.png)
+
 There will be some interesting things about elliptic curves: tasks and theory.
 
-See my progress at [TODO](./TODO.md)
+See the progress at [TODO](./TODO.md)
 
 !!! note
     All tasks generators require [SageMath](http://www.sagemath.org/) to be installed.  
