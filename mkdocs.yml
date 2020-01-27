@@ -48,7 +48,8 @@ nav:
     - Base: 'theory/base.md'
     - Pairings: 'theory/pairings.md'
   - Tasks:
-    - Anomalous curves: 'tasks/anomalous/README.md'
+    - 'Anomalous curves': 'tasks/anomalous/README.md'
     - 'Curves with smooth-number order': 'tasks/pohlig-hellman/README.md'
     - 'Chain of fools/CurveBall attack': 'tasks/chain-of-fools/README.md'
+    - 'Singular curves': 'tasks/singular/README.md'
   - TODO: 'TODO.md'

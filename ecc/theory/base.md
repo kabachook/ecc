@@ -21,3 +21,9 @@ Contents:
 ## Challenges
 
 Solve some tasks at [Forkbomb](https://crypto-kids20.forkbomb.ru/tasks)!
+
+## Links
+
+Some useful books or papers:
+
+- [A Graduate Course in Applied Cryptography by Dan Boneh and Victor Shoup](https://toc.cryptobook.us/)
