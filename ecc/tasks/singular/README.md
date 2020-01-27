@@ -21,7 +21,11 @@ With a change of variable, you can come to two cases:
 2. Node $y^2 = x^2*(x - 1)$
 
     The curve is isomorphic to *multiplicative group* of $\mathbf F_{p^2}^*$, where discrete logarithm is easier to compute.
-    
+
+## Other tasks
+
+- [hxp CTF 2018 curve12833227](https://ctftime.org/writeup/12563)
+
 ## Links
 
 - https://crypto.stackexchange.com/questions/61302/how-to-solve-this-ecdlp
