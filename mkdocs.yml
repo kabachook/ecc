@@ -6,8 +6,8 @@ repo_name: "kabachook/ecc"
 
 theme:
   name: 'material'
-  logo:
-    icon: 📈
+  icon:
+    logo: 📈
   palette:
     primary: 'deep purple'
     accent: 'purple'
