@@ -7,7 +7,7 @@ repo_name: "kabachook/ecc"
 theme:
   name: 'material'
   icon:
-    logo: 📈
+    logo: fontawesome/solid/infinity
   palette:
     primary: 'deep purple'
     accent: 'purple'
