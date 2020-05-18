@@ -35,9 +35,9 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_javascript:
+  - 'static/tex.js'
   - 'https://polyfill.io/v3/polyfill.min.js?features=es6'
   - 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js'
-  - 'static/tex.js'
 extra_css:
   - 'static/style.css'
 
