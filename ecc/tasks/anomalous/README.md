@@ -36,7 +36,8 @@ You will get two files:
 ## Other tasks
 
 - PoliCTF 2012 Crypto 200. [Writeup by MSLC](http://mslc.ctf.su/wp/polictf-2012-crypto-500/)
-- SharifCTF 2016 Crypto 350 — British Elevator. [Writeup 1 by hxp team](https://hxp.io/blog/25/SharifCTF-2016-crypto350-British-Elevator-writeup/). [Writeup 2 by Shiho Midorikawa](https://gist.github.com/elliptic-shiho/e76e7c2a2aff228d7807) 
+- SharifCTF 2016 Crypto 350 — British Elevator. [Writeup 1 by hxp team](https://hxp.io/blog/25/SharifCTF-2016-crypto350-British-Elevator-writeup/). [Writeup 2 by Shiho Midorikawa](https://gist.github.com/elliptic-shiho/e76e7c2a2aff228d7807)
+- DEFCON Quals 2020 - nottobefooled. [Writeup by Ariana1729](https://github.com/Ariana1729/CTF-Writeups/tree/master/2020/DEFCON/notbefoooled) (interesting thing here is that we need to do the opposite - generate an anamolous curve which is not affected by Smart attack)
 
 ## Links
 
